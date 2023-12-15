@@ -47,7 +47,7 @@ function App() {
                     <p className="country-name">{weatherData.country}</p>
                     <p className="temperature">{weatherData.temperature}</p>
                     <div className="info-icon-container">
-                        <img src={`/icons/${weatherData.iconId}.svg`} className="info-icon" alt="weather icon"/>
+                        <img src={`./icons/${weatherData.iconId}.svg`} className="info-icon" alt="weather icon"/>
                     </div>
                 </>
             )}
